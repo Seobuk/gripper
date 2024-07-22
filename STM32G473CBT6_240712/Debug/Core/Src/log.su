@@ -1,0 +1,6 @@
+../Core/Src/log.c:61:6:logInit	0	static
+../Core/Src/log.c:93:6:logEnable	0	static
+../Core/Src/log.c:98:6:logDisable	0	static
+../Core/Src/log.c:103:6:logBoot	0	static
+../Core/Src/log.c:110:6:logOpen	8	static
+../Core/Src/log.c:157:6:logPrintf	16	static

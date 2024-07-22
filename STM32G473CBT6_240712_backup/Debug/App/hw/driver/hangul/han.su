@@ -1,0 +1,5 @@
+../App/hw/driver/hangul/han.c:112:6:hanUniFontLoad	28	static
+../App/hw/driver/hangul/han.c:159:6:hanEngFontLoad	0	static
+../App/hw/driver/hangul/han.c:174:10:hanCnvCodeWan2Johab	0	static
+../App/hw/driver/hangul/han.c:71:6:hanWanFontLoad	32	static
+../App/hw/driver/hangul/han.c:23:10:hanFontLoad	16	static

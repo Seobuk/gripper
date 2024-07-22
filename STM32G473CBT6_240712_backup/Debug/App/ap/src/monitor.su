@@ -1,0 +1,5 @@
+../App/ap/src/monitor.c:21:6:monitorInit	8	static
+../App/ap/src/monitor.c:47:6:monitorLcdUpdate	32	static
+../App/ap/src/monitor.c:85:6:monitorUartUpdate	32	static
+../App/ap/src/monitor.c:100:6:cliMonitor	16	static
+../App/ap/src/monitor.c:95:6:monitorMain	8	static

@@ -1,0 +1,12 @@
+../App/hw/driver/lcd/ssd1306.c:135:6:ssd1306SetWindow	0	static
+../App/hw/driver/lcd/ssd1306.c:139:10:ssd1306GetWidth	0	static
+../App/hw/driver/lcd/ssd1306.c:144:10:ssd1306GetHeight	0	static
+../App/hw/driver/lcd/ssd1306.c:171:6:ssd1306SetCallBack	0	static
+../App/hw/driver/lcd/ssd1306.c:178:6:ssd1306Fill	0	static
+../App/hw/driver/lcd/ssd1306.c:207:6:ssd1306DrawPixel	4	static
+../App/hw/driver/lcd/ssd1306.c:49:6:ssd1306InitDriver	0	static
+../App/hw/driver/lcd/ssd1306.c:61:6:ssd1306WriteCmd	16	static
+../App/hw/driver/lcd/ssd1306.c:188:6:ssd1306UpdateDraw	16	static
+../App/hw/driver/lcd/ssd1306.c:149:6:ssd1306SendBuffer	16	static
+../App/hw/driver/lcd/ssd1306.c:66:6:ssd1306Reset	8	static
+../App/hw/driver/lcd/ssd1306.c:40:6:ssd1306Init	8	static

@@ -1,0 +1,26 @@
+{
+  "files.associations": {
+    "bsp.h": "c",
+    "stm32g4xx_hal.h": "c",
+    "qbuffer.h": "c",
+    "cmath": "c",
+    "gpio.h": "c",
+    "usart.h": "c",
+    "arm_math.h": "c",
+    "dac.h": "c",
+    "hw_def.h": "c",
+    "def.h": "c",
+    "adc.h": "c",
+    "main.h": "c",
+    "ap.h": "c",
+    "ap_def.h": "c",
+    "hw.h": "c",
+    "cli.h": "c",
+    "winapifamily.h": "c",
+    "i2c.h": "c",
+    "lcd.h": "c",
+    "uart.h": "c",
+    "log.h": "c",
+    "control.h": "c"
+  }
+}

@@ -1,0 +1,12 @@
+../App/hw/driver/lcd/ssd1306.c:137:6:ssd1306SetWindow	1
+../App/hw/driver/lcd/ssd1306.c:141:10:ssd1306GetWidth	1
+../App/hw/driver/lcd/ssd1306.c:146:10:ssd1306GetHeight	1
+../App/hw/driver/lcd/ssd1306.c:173:6:ssd1306SetCallBack	1
+../App/hw/driver/lcd/ssd1306.c:180:6:ssd1306Fill	3
+../App/hw/driver/lcd/ssd1306.c:244:6:ssd1306DrawPixel	4
+../App/hw/driver/lcd/ssd1306.c:51:6:ssd1306InitDriver	1
+../App/hw/driver/lcd/ssd1306.c:63:6:ssd1306WriteCmd	1
+../App/hw/driver/lcd/ssd1306.c:190:6:ssd1306UpdateDraw	3
+../App/hw/driver/lcd/ssd1306.c:151:6:ssd1306SendBuffer	4
+../App/hw/driver/lcd/ssd1306.c:68:6:ssd1306Reset	3
+../App/hw/driver/lcd/ssd1306.c:42:6:ssd1306Init	1
