@@ -1,6 +1,0 @@
-../Core/Src/log.c:61:6:logInit	1
-../Core/Src/log.c:93:6:logEnable	1
-../Core/Src/log.c:98:6:logDisable	1
-../Core/Src/log.c:103:6:logBoot	1
-../Core/Src/log.c:110:6:logOpen	1
-../Core/Src/log.c:157:6:logPrintf	4

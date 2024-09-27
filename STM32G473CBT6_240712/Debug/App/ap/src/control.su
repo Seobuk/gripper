@@ -1,4 +1,0 @@
-../App/ap/src/control.c:30:6:cliCtrl	8	static
-../App/ap/src/control.c:11:6:controlInit	8	static
-../App/ap/src/control.c:20:6:controlUserFunc	0	static
-../App/ap/src/control.c:25:6:controlUserMain	0	static

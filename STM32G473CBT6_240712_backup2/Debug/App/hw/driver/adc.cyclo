@@ -1,0 +1,3 @@
+../App/hw/driver/adc.c:40:6:cliAdc	4
+../App/hw/driver/adc.c:19:6:adcInit	1
+../App/hw/driver/adc.c:34:6:adcMain	1

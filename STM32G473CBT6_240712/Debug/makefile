@@ -1,6 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (12.3.rel1)
+# Toolchain: GNU Tools for STM32 (11.3.rel1)
 ################################################################################
 
 -include ../makefile.init
@@ -67,8 +67,8 @@ all: main-build
 main-build: STM32G473CBT6.elf secondary-outputs
 
 # Tool invocations
-STM32G473CBT6.elf STM32G473CBT6.map: $(OBJS) $(USER_OBJS) C:\Users\user\Documents\git\gripper\STM32G473CBT6_240712\STM32G473CBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "STM32G473CBT6.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\user\Documents\git\gripper\STM32G473CBT6_240712\STM32G473CBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32G473CBT6.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+STM32G473CBT6.elf STM32G473CBT6.map: $(OBJS) $(USER_OBJS) C:\Users\user\STM32CubeIDE\workspace\1\STM32G473CBT6\STM32G473CBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "STM32G473CBT6.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\user\STM32CubeIDE\workspace\1\STM32G473CBT6\STM32G473CBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32G473CBT6.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

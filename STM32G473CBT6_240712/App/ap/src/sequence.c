@@ -19,7 +19,7 @@ const uint16_t sequence_freq          = 10000;      // 제어 주기 10Khz
 const float    vpp_max                = 20.0f;      // vpp
 const float    vpeak_max              = 10.0f;      // vpp * 1/2
 float          ipeak_max              = 5.0f;       // A
-float          vpp_out                = 0.0f;       // vpp (default 5Vpp)
+float          vpp_out                = 5.0f;       // vpp (default 5Vpp)
 float          adc_offset[ADC_MAX_CH] = {2355.0f, 2355.0f, 2355.0f, 2355.0f, 2837.0f};
 
 uint32_t adc_value[ADC_MAX_CH];                     // VRMS 1 ~ 4, IPP/IPN(IRMS)
@@ -37,12 +37,6 @@ value_buf_t queue_buffer[BUFFER_SIZE];
 qbuffer_t   value_queue;
 
 uint8_t uart3_send_time = 1;                        // ms serial-plot 로 출력할 uart 데이터를 큐에 업로드 하는 주기
-
-
-static bool    is_mode_algo             = false;
-static bool    is_mode_cli              = true;
-float          algo_vpp_out             = 0.0f;
-uint16_t 	   algo_freq          		= 0;
 
 
 static void vrms1Upadate(void);

@@ -1,0 +1,3 @@
+../App/hw/driver/adc.c:40:6:cliAdc	8	static
+../App/hw/driver/adc.c:19:6:adcInit	16	static
+../App/hw/driver/adc.c:34:6:adcMain	0	static

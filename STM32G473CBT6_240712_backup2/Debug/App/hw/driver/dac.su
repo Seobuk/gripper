@@ -1,0 +1,3 @@
+../App/hw/driver/dac.c:39:6:cliDac	8	static
+../App/hw/driver/dac.c:19:6:dacInit	8	static
+../App/hw/driver/dac.c:33:6:dacMain	0	static
